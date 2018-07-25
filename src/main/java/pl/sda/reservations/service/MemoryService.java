@@ -31,7 +31,9 @@ public class MemoryService {
         for (int i = 1; i < numbers.size(); i++) {
             if (numbers.get(i) > max) {
                max = numbers.get(i);
+                System.out.println("");
             }
         }return max;
     }
+
 }
